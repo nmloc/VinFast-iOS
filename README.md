@@ -20,6 +20,9 @@ git lfs pull
 ```
 
 <br />
+## Building framework manually
+Amity UIKit and other build packages link:
+https://drive.google.com/drive/folders/15ePuiNaznI_8ZeQkj8k7mORfwFEzIQqW?usp=sharing
 
 ## Building framework
 AmityUIKit supports building xcframework which can be used on any Xcode version. Please follow this instruction for building.
