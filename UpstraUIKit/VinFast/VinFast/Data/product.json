@@ -1,0 +1,44 @@
+[
+  {
+    "id" : 0,
+    "name": "VinFast VF 8 Plus",
+    "rate": "4.5",
+    "price": "1.057.100.000 VND",
+    "image" : "VF8 plus"
+  },
+  {
+    "id" : 1,
+    "name": "VinFast VF 5 Plus",
+    "rate": "4.5",
+    "price": "538.000.000 VND",
+    "image" : "VF5"
+  },
+  {
+    "id" : 2,
+    "name": "VinFast VF 8 Plus",
+    "rate": "4.5",
+    "price": "900.000.000 VND",
+    "image" : "VF8"
+  },
+  {
+    "id" : 3,
+    "name": "FELIZ S",
+    "rate": "4.5",
+    "price": "29.900.000 VND",
+    "image" : "FELIZ S"
+  },
+  {
+    "id" : 4,
+    "name": "KLARA A2",
+    "rate": "4.5",
+    "price": "26.900.000 VND",
+    "image" : "KLARA A2"
+  },
+  {
+    "id" : 5,
+    "name": "KLARA S",
+    "rate": "4.5",
+    "price": "36.900.000 VND",
+    "image" : "KLARA S"
+  }
+]

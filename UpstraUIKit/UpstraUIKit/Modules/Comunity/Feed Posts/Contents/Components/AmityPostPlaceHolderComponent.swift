@@ -2,8 +2,7 @@
 //  AmityPostPlaceHolderComponent.swift
 //  AmityUIKit
 //
-//  Created by sarawoot khunsri on 2/12/21.
-//  Copyright © 2021 Amity. All rights reserved.
+//  Created by Nguyen Minh Loc on 03/04/2023.
 //
 
 import UIKit

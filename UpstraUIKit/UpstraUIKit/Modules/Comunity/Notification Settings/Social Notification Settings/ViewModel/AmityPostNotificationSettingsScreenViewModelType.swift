@@ -2,8 +2,7 @@
 //  AmityPostNotificationSettingsScreenViewModelType.swift
 //  AmityUIKit
 //
-//  Created by Nontapat Siengsanor on 22/3/2564 BE.
-//  Copyright © 2564 BE Amity. All rights reserved.
+//  Created by Nguyen Minh Loc on 03/04/2023.
 //
 
 import AmitySDK

@@ -1,0 +1,42 @@
+[
+  {
+    "id" : 0,
+    "name": "Ô tô điện",
+    "image" : "electric car"
+  },
+  {
+    "id" : 1,
+    "name": "Ô tô xăng",
+    "image" : "petrol car"
+  },
+  {
+    "id" : 2,
+    "name": "Xe máy cao cấp",
+    "image" : "pro bike"
+  },
+  {
+    "id" : 3,
+    "name": "Xe máy trung cấp",
+    "image" : "advanced bike"
+  },
+  {
+    "id" : 4,
+    "name": "Xe máy phổ thông",
+    "image" : "basic bike"
+  },
+  {
+    "id" : 5,
+    "name": "Pin & trạm sạc ô tô",
+    "image" : "electric car charging station"
+  },
+  {
+    "id" : 6,
+    "name": "Pin & trạm sạc xe máy",
+    "image" : "electric bike charging station"
+  },
+  {
+    "id" : 7,
+    "name": "Dịch vụ hậu mãi",
+    "image" : "services"
+  }
+]

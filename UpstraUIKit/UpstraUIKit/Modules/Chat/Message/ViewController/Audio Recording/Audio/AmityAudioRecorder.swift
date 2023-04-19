@@ -2,8 +2,7 @@
 //  AmityAudioRecorder.swift
 //  AmityUIKit
 //
-//  Created by Sarawoot Khunsri on 3/12/2563 BE.
-//  Copyright © 2563 BE Amity. All rights reserved.
+//  Created by Nguyen Minh Loc on 03/04/2023.
 //
 
 import UIKit

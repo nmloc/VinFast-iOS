@@ -2,8 +2,7 @@
 //  AmityPostHeaderTableViewCell.swift
 //  AmityUIKit
 //
-//  Created by sarawoot khunsri on 2/5/21.
-//  Copyright © 2021 Amity. All rights reserved.
+//  Created by Nguyen Minh Loc on 03/04/2023.
 //
 
 import UIKit
@@ -69,9 +68,12 @@ public final class AmityPostHeaderTableViewCell: UITableViewCell, Nibbable, Amit
     // MARK: - Setup views
     private func setupView() {
         selectionStyle = .none
-        backgroundColor = .clear
-        contentView.backgroundColor = .clear
-        containerView.backgroundColor = AmityColorSet.backgroundColor
+//        backgroundColor = .clear
+//        contentView.backgroundColor = .clear
+//        containerView.backgroundColor = AmityColorSet.backgroundColor
+        backgroundColor = .black
+        contentView.backgroundColor = .black
+        containerView.backgroundColor = .black
         displayNameLabel.configure(displayName: AmityLocalizedStringSet.General.anonymous.localizedString, communityName: nil, isOfficial: false, shouldShowCommunityName: false, shouldShowBannedSymbol: false)
         
         // badge

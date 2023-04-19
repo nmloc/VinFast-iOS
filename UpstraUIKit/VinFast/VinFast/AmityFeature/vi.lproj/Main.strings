@@ -1,0 +1,63 @@
+
+/* Class = "UITabBarItem"; title = "Community"; ObjectID = "1Z9-3R-PWX"; */
+"1Z9-3R-PWX.title" = "Community";
+
+/* Class = "UISearchBar"; placeholder = "Tìm kiếm"; ObjectID = "3Le-sP-Sgo"; */
+"3Le-sP-Sgo.placeholder" = "Tìm kiếm";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "4tI-G8-pNa"; */
+"4tI-G8-pNa.title" = "Home";
+
+/* Class = "UIButton"; normalTitle = "Color Palette"; ObjectID = "9nq-QQ-6ee"; */
+"9nq-QQ-6ee.normalTitle" = "Color Palette";
+
+/* Class = "UIButton"; normalTitle = "PRESET 2"; ObjectID = "Blv-Cd-p3G"; */
+"Blv-Cd-p3G.normalTitle" = "PRESET 2";
+
+/* Class = "UIButton"; configuration.title = "Xem tất cả"; ObjectID = "Flr-J8-GeV"; */
+"Flr-J8-GeV.configuration.title" = "Xem tất cả";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Flr-J8-GeV"; */
+"Flr-J8-GeV.normalTitle" = "Button";
+
+/* Class = "UITabBarItem"; title = "Product"; ObjectID = "HIo-wM-8Kt"; */
+"HIo-wM-8Kt.title" = "Product";
+
+/* Class = "UITabBarItem"; title = "Community"; ObjectID = "IkU-H1-Oue"; */
+"IkU-H1-Oue.title" = "Community";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "Kra-ae-JHu"; */
+"Kra-ae-JHu.title" = "Home";
+
+/* Class = "UILabel"; text = "Bán chạy nhất"; ObjectID = "Uzo-ZU-QNT"; */
+"Uzo-ZU-QNT.text" = "Bán chạy nhất";
+
+/* Class = "UIButton"; normalTitle = "PRESET 3"; ObjectID = "YcD-kI-aQG"; */
+"YcD-kI-aQG.normalTitle" = "PRESET 3";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "cLx-e0-7sF"; */
+"cLx-e0-7sF.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "PRESET 1"; ObjectID = "gsO-WV-LgK"; */
+"gsO-WV-LgK.normalTitle" = "PRESET 1";
+
+/* Class = "UIButton"; normalTitle = "Add"; ObjectID = "j8w-QM-kSH"; */
+"j8w-QM-kSH.normalTitle" = "Add";
+
+/* Class = "UITabBarItem"; title = "Profile"; ObjectID = "oD1-V9-BYF"; */
+"oD1-V9-BYF.title" = "Profile";
+
+/* Class = "UIButton"; normalTitle = "DEFAULT PRESET"; ObjectID = "pp8-X1-iom"; */
+"pp8-X1-iom.normalTitle" = "DEFAULT PRESET";
+
+/* Class = "UITabBarItem"; title = "Product"; ObjectID = "qSW-t9-y3c"; */
+"qSW-t9-y3c.title" = "Product";
+
+/* Class = "UIBarButtonItem"; title = "Endpoints"; ObjectID = "rPR-6Y-pc9"; */
+"rPR-6Y-pc9.title" = "Endpoints";
+
+/* Class = "UIButton"; normalTitle = "PRESET 4"; ObjectID = "wVt-tL-Qsj"; */
+"wVt-tL-Qsj.normalTitle" = "PRESET 4";
+
+/* Class = "UITabBarItem"; title = "Profile"; ObjectID = "yss-32-qfQ"; */
+"yss-32-qfQ.title" = "Profile";

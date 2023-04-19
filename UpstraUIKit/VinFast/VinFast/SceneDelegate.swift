@@ -2,8 +2,7 @@
 //  SceneDelegate.swift
 //  VinFast
 //
-//  Created by Sarawoot Khunsri on 15/7/2563 BE.
-//  Copyright © 2563 Amity. All rights reserved.
+//  Created by Nguyen Minh Loc on 03/04/2023. 
 //
 
 import UIKit
@@ -18,10 +17,22 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use a UIHostingController as window root view controller.
         
         if let windowScene = scene as? UIWindowScene {
-            let window = UIWindow(windowScene: windowScene)
-            window.rootViewController = AppManager.shared.startingPage()
-            self.window = window
+            var window = UIWindow(windowScene: windowScene)
+//            window.rootViewController = AppManager.shared.startingPage()
+//            self.window = window
+//            window.makeKeyAndVisible()
+            
+            let launchScreenStoryboard = UIStoryboard(name: "LaunchScreen", bundle: nil)
+            let viewController = launchScreenStoryboard.instantiateInitialViewController()
+            window.rootViewController = viewController
             window.makeKeyAndVisible()
+            
+            DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 1) {
+                let mainStoryboard = UIStoryboard(name: "Main", bundle: nil)
+                let tabBarController = mainStoryboard.instantiateViewController(withIdentifier: "TabBarController") as! UITabBarController
+                self.window?.rootViewController = tabBarController
+                self.window?.makeKeyAndVisible()
+            }
         }
     }
 

@@ -2,8 +2,7 @@
 //  AppDelegate.swift
 //  VinFast
 //
-//  Created by Sarawoot Khunsri on 15/7/2563 BE.
-//  Copyright © 2563 Amity. All rights reserved.
+//  Created by Nguyen Minh Loc on 03/04/2023.
 //
 
 import UIKit
@@ -22,13 +21,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UNUserNotificationCenter.current().delegate = self
         
         // Setup AmityUIKit
-        AppManager.shared.setupAmityUIKit()
+//        AppManager.shared.setupAmityUIKit()
+        VinFastManager.shared.setupAmityUIKit()
 
         if #available(iOS 13.0, *) {
             // on newer 13.0 version, the window setup finished on `SceneDelegate`
         } else {
             window = UIWindow()
-            window?.rootViewController = AppManager.shared.startingPage()
+//            window?.rootViewController = AppManager.shared.startingPage()
+            window?.rootViewController = UINavigationController(rootViewController: HomeViewController())
             window?.makeKeyAndVisible()
         }
         

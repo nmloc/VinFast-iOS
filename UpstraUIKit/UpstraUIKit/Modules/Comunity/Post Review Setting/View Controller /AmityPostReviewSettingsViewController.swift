@@ -2,8 +2,7 @@
 //  AmityPostReviewSettingsViewController.swift
 //  AmityUIKit
 //
-//  Created by Sarawoot Khunsri on 11/3/2564 BE.
-//  Copyright © 2564 BE Amity. All rights reserved.
+//  Created by Nguyen Minh Loc on 03/04/2023.
 //
 
 import UIKit

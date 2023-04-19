@@ -2,8 +2,7 @@
 //  AmityDocumentPickerViewController.swift
 //  AmityUIKit
 //
-//  Created by Nontapat Siengsanor on 27/7/2563 BE.
-//  Copyright © 2563 Amity Communication. All rights reserved.
+//  Created by Nguyen Minh Loc on 03/04/2023.
 //
 
 import UIKit

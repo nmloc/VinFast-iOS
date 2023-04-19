@@ -2,8 +2,7 @@
 //  AmitySearchMemberTableViewCell.swift
 //  AmityUIKit
 //
-//  Created by Sarawoot Khunsri on 22/9/2563 BE.
-//  Copyright © 2563 Amity. All rights reserved.
+//  Created by Nguyen Minh Loc on 03/04/2023.
 //
 
 import UIKit

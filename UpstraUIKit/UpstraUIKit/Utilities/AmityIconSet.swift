@@ -2,8 +2,7 @@
 //  AmityIconSet.swift
 //  AmityUIKit
 //
-//  Created by Sarawoot Khunsri on 15/6/2563 BE.
-//  Copyright © 2563 Amity Communication. All rights reserved.
+//  Created by Nguyen Minh Loc on 03/04/2023.
 //
 
 import UIKit
@@ -30,10 +29,16 @@ public struct AmityIconSet {
     public static var iconCameraSmall = UIImage(named: "icon_camera_small", in: AmityUIKitManager.bundle, compatibleWith: nil)
     public static var iconCommunity = UIImage(named: "icon_community", in: AmityUIKitManager.bundle, compatibleWith: nil)
     public static var iconPrivateSmall = UIImage(named: "icon_private_small", in: AmityUIKitManager.bundle, compatibleWith: nil)
-    public static var iconLike = UIImage(named: "icon_like", in: AmityUIKitManager.bundle, compatibleWith: nil)
-    public static var iconLikeFill = UIImage(named: "icon_like_fill", in: AmityUIKitManager.bundle, compatibleWith: nil)
-    public static var iconComment = UIImage(named: "icon_comment", in: AmityUIKitManager.bundle, compatibleWith: nil)?.withRenderingMode(.alwaysOriginal)
-    public static var iconShare = UIImage(named: "icon_share", in: AmityUIKitManager.bundle, compatibleWith: nil)?.withRenderingMode(.alwaysOriginal)
+//    public static var iconLike = UIImage(named: "icon_like", in: AmityUIKitManager.bundle, compatibleWith: nil)
+//    public static var iconLikeFill = UIImage(named: "icon_like_fill", in: AmityUIKitManager.bundle, compatibleWith: nil)
+//    public static var iconComment = UIImage(named: "icon_comment", in: AmityUIKitManager.bundle, compatibleWith: nil)?.withRenderingMode(.alwaysOriginal)
+//    public static var iconShare = UIImage(named: "icon_share", in: AmityUIKitManager.bundle, compatibleWith: nil)?.withRenderingMode(.alwaysOriginal)
+    
+    public static var iconLike = UIImage(systemName: "heart")?.withTintColor(.label, renderingMode: .alwaysOriginal)
+    public static var iconLikeFill = UIImage(systemName: "heart.fill")?.withTintColor(.systemRed, renderingMode: .alwaysOriginal)
+    public static var iconComment = UIImage(systemName: "ellipsis.message")?.withTintColor(.systemRed, renderingMode: .alwaysOriginal)
+    public static var iconShare = UIImage(systemName: "arrowshape.turn.up.right.circle")?.withTintColor(.systemRed, renderingMode: .alwaysOriginal)
+    
     public static var iconPhoto = UIImage(named: "icon_photo", in: AmityUIKitManager.bundle, compatibleWith: nil)?.withRenderingMode(.alwaysOriginal)
     public static var iconAttach = UIImage(named: "icon_attach", in: AmityUIKitManager.bundle, compatibleWith: nil)?.withRenderingMode(.alwaysOriginal)
     public static var iconOption = UIImage(named: "icon_option", in: AmityUIKitManager.bundle, compatibleWith: nil)
