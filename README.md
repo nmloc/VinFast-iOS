@@ -1,3 +1,10 @@
+## Note !!
+Please unzip main.storyboard in this directory to run the project:
+```
+VinFast-iOS/UpstraUIKit/VinFast/VinFast/Base.lproj/Main.storyboard.zip
+```
+
+<br />
 
 ## Overview Architecture
 **MVVM** is cleanly separates presentation layer from the other layers. Divorcing one from the other improves its maintainability and testability. It also makes the application evolution easier in the future, thereby reducing the risk of technological obsolescence. 
