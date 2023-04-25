@@ -16,12 +16,30 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
+        // Fix the error that UINavigationBar and UITbarBar change their background color to system background when scrolling to top/bottom of screen
+        if #available(iOS 15, *) {
+            let navigationBarAppearance = UINavigationBarAppearance()
+            navigationBarAppearance.configureWithOpaqueBackground()
+            navigationBarAppearance.titleTextAttributes = [
+                NSAttributedString.Key.foregroundColor : UIColor.white
+            ]
+            navigationBarAppearance.backgroundColor = background
+            UINavigationBar.appearance().standardAppearance = navigationBarAppearance
+            UINavigationBar.appearance().compactAppearance = navigationBarAppearance
+            UINavigationBar.appearance().scrollEdgeAppearance = navigationBarAppearance
+            
+            let tabBarApperance = UITabBarAppearance()
+            tabBarApperance.configureWithOpaqueBackground()
+            tabBarApperance.backgroundColor = background
+            UITabBar.appearance().scrollEdgeAppearance = tabBarApperance
+            UITabBar.appearance().standardAppearance = tabBarApperance
+        }
+        
         // Setup UNUserNotificationCenter to handle push notification.
         // https://developer.apple.com/documentation/usernotifications/
         UNUserNotificationCenter.current().delegate = self
         
         // Setup AmityUIKit
-//        AppManager.shared.setupAmityUIKit()
         VinFastManager.shared.setupAmityUIKit()
 
         if #available(iOS 13.0, *) {

@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "VENTO-S-orange.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

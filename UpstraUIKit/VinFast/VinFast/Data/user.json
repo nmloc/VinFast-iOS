@@ -1,6 +1,8 @@
 {
     "id": "johnwick",
     "name": "John Wick",
-    "avatarURL" : "",
-    "phoneNumber" : "0123456789",
+    "avatarURL": "",
+    "phoneNumber": "0123456789",
+    "language": "Vietnamese",
+    "darkMode": "Yes"
 }

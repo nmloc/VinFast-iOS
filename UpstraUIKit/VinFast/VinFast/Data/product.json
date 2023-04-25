@@ -1,44 +1,865 @@
 [
-  {
-    "id" : 0,
-    "name": "VinFast VF 8 Plus",
-    "rate": "4.5",
-    "price": "1.057.100.000 VND",
-    "image" : "VF8 plus"
-  },
-  {
-    "id" : 1,
-    "name": "VinFast VF 5 Plus",
-    "rate": "4.5",
-    "price": "538.000.000 VND",
-    "image" : "VF5"
-  },
-  {
-    "id" : 2,
-    "name": "VinFast VF 8 Plus",
-    "rate": "4.5",
-    "price": "900.000.000 VND",
-    "image" : "VF8"
-  },
-  {
-    "id" : 3,
-    "name": "FELIZ S",
-    "rate": "4.5",
-    "price": "29.900.000 VND",
-    "image" : "FELIZ S"
-  },
-  {
-    "id" : 4,
-    "name": "KLARA A2",
-    "rate": "4.5",
-    "price": "26.900.000 VND",
-    "image" : "KLARA A2"
-  },
-  {
-    "id" : 5,
-    "name": "KLARA S",
-    "rate": "4.5",
-    "price": "36.900.000 VND",
-    "image" : "KLARA S"
-  }
+    {
+        "id" : 0,
+        "name": "VinFast VF5",
+        "rate": "4.5",
+        "price": "458.000.000 VNĐ",
+        "image" : "VF5-9",
+        "colors": [
+            {
+                "color": "white",
+                "image": "VF5-9"
+            },
+            {
+                "color": "black",
+                "image": "VF5-15"
+            },
+            {
+                "color": "grey",
+                "image": "VF5-12"
+            },
+            {
+                "color": "red",
+                "image": "VF5-3"
+            },
+            {
+                "color": "blue",
+                "image": "VF5-6"
+            },
+            {
+                "color": "orange",
+                "image": "VF5-2"
+            }
+        ],
+        "detailImages": ["VF5-1", "VF5-2", "VF5-3", "VF5-4", "VF5-5", "VF5-6", "VF5-7", "VF5-8", "VF5-9", "VF5-10", "VF5-11", "VF5-12", "VF5-13", "VF5-14", "VF5-15", "VF5-16"],
+        "description": "VF5 Plus có ngoại thất đẹp, thanh thoát nhờ sự kết hợp giữa kiểu dáng SUV và couple. Thiết kế ấn tượng này được chắp bút bởi Studio thiết kế Pininfarina (Italia) - cha đẻ của những mẫu ngoại thất xe đẳng cấp.",
+        "numOfReviews": "4",
+        "reviews": [
+            {
+                "id": "641955b98f82b3b61fd770e1",
+                "user":
+                {
+                    "id": "hoangnamtien",
+                    "name": "Hoàng Nam Tiến",
+                    "avatarURL": "https://media.vneconomy.vn/w800/images/upload/2021/04/20/imgl0049-16075896088981339590624-crop-1607589637212622054276.jpg",
+                    "phoneNumber": "0979797979",
+                    "language": "Vietnamese",
+                    "darkMode": "Yes"
+                },
+                "rate" : "5",
+                "content": "Mấy chị em mà đi VF8 thì tuyệt ah",
+                "numOfReactions": "34",
+                "createdAt": "4/23/2023, 13:59"
+            },
+            {
+                "id": "641955b98f82b3b61fd770e2",
+                "user":
+                {
+                    "id": "shouzichew",
+                    "name": "Shou Zi Chew",
+                    "avatarURL": "https://www.repstatic.it/content/contenthub/img/2023/03/23/162950195-dd0f308d-9aba-45ac-a16d-519824d6aca1.jpg",
+                    "phoneNumber": "0123456789",
+                    "language": "Vietnamese",
+                    "darkMode": "Yes"
+                },
+                "rate" : "4",
+                "content": "Trải nghiệm rất tuyệt",
+                "numOfReactions": "26",
+                "createdAt": "4/20/2023, 13:59"
+            },
+            {
+                "id": "641955b98f82b3b61fd770e3",
+                "user":
+                {
+                    "id": "phungtuanduc",
+                    "name": "Phùng Tuấn Đức",
+                    "avatarURL": "https://static.doanhnhan.vn/images/upload/thanhtrung/09142020/1_iqjg.jpg",
+                    "phoneNumber": "0123456789",
+                    "language": "Vietnamese",
+                    "darkMode": "Yes"
+                },
+                "rate" : "3",
+                "content": "Mẫu mã xe đa dạng, đẹp mắt",
+                "numOfReactions": "3",
+                "createdAt": "4/2/2023, 13:59"
+            },
+            {
+                "id": "641955b98f82b3b61fd770e4",
+                "user":
+                {
+                    "id": "elonmusk",
+                    "name": "Elon Musk",
+                    "avatarURL": "https://cdn.vox-cdn.com/thumbor/WYZNb2sx7XuDb9ALk49LQtjF_IQ=/0x0:4000x2781/1400x1400/filters:focal(2000x1391:2001x1392)/cdn.vox-cdn.com/uploads/chorus_asset/file/22520460/1229901686.jpg",
+                    "phoneNumber": "0123456789",
+                    "language": "Vietnamese",
+                    "darkMode": "Yes"
+                },
+                "rate" : "2",
+                "content": "Rất sang",
+                "numOfReactions": "19",
+                "createdAt": "2/23/2023, 13:59"
+            }
+        ]
+    },
+    {
+        "id" : 1,
+        "name": "VinFast VF6",
+        "rate": "4.5",
+        "price": "600.000.000 VNĐ",
+        "image" : "VF6-1",
+        "colors": [
+            {
+                "color": "yellow",
+                "image": "VF6-1"
+            }
+        ],
+        "detailImages": ["VF6-1", "VF6-2", "VF6-3", "VF6-4", "VF6-5", "VF6-6", "VF6-7", "VF6-8", "VF6-9", "VF6-10", "VF6-11", "VF6-12", "VF6-13", "VF6-14"],
+        "description": "VF6 có ngoại thất đẹp, thanh thoát nhờ sự kết hợp giữa kiểu dáng SUV và couple. Thiết kế ấn tượng này được chắp bút bởi Studio thiết kế Pininfarina (Italia) - cha đẻ của những mẫu ngoại thất xe đẳng cấp.",
+        "numOfReviews": "1",
+        "reviews": [
+            {
+                "id": "641955b98f82b3b61fd770e1",
+                "user":
+                {
+                    "id": "hoangnamtien",
+                    "name": "Hoàng Nam Tiến",
+                    "avatarURL": "https://media.vneconomy.vn/w800/images/upload/2021/04/20/imgl0049-16075896088981339590624-crop-1607589637212622054276.jpg",
+                    "phoneNumber": "0979797979",
+                    "language": "Vietnamese",
+                    "darkMode": "Yes"
+                },
+                "rate" : "5",
+                "content": "Mấy chị em mà đi VF8 thì tuyệt ah",
+                "numOfReactions": "34",
+                "createdAt": "4/23/2023, 13:59"
+            },
+            {
+                "id": "641955b98f82b3b61fd770e2",
+                "user":
+                {
+                    "id": "shouzichew",
+                    "name": "Shou Zi Chew",
+                    "avatarURL": "https://www.repstatic.it/content/contenthub/img/2023/03/23/162950195-dd0f308d-9aba-45ac-a16d-519824d6aca1.jpg",
+                    "phoneNumber": "0123456789",
+                    "language": "Vietnamese",
+                    "darkMode": "Yes"
+                },
+                "rate" : "4",
+                "content": "Trải nghiệm rất tuyệt",
+                "numOfReactions": "26",
+                "createdAt": "4/20/2023, 13:59"
+            },
+            {
+                "id": "641955b98f82b3b61fd770e3",
+                "user":
+                {
+                    "id": "phungtuanduc",
+                    "name": "Phùng Tuấn Đức",
+                    "avatarURL": "https://static.doanhnhan.vn/images/upload/thanhtrung/09142020/1_iqjg.jpg",
+                    "phoneNumber": "0123456789",
+                    "language": "Vietnamese",
+                    "darkMode": "Yes"
+                },
+                "rate" : "3",
+                "content": "Mẫu mã xe đa dạng, đẹp mắt",
+                "numOfReactions": "3",
+                "createdAt": "4/2/2023, 13:59"
+            },
+            {
+                "id": "641955b98f82b3b61fd770e4",
+                "user":
+                {
+                    "id": "elonmusk",
+                    "name": "Elon Musk",
+                    "avatarURL": "https://cdn.vox-cdn.com/thumbor/WYZNb2sx7XuDb9ALk49LQtjF_IQ=/0x0:4000x2781/1400x1400/filters:focal(2000x1391:2001x1392)/cdn.vox-cdn.com/uploads/chorus_asset/file/22520460/1229901686.jpg",
+                    "phoneNumber": "0123456789",
+                    "language": "Vietnamese",
+                    "darkMode": "Yes"
+                },
+                "rate" : "2",
+                "content": "Rất sang",
+                "numOfReactions": "19",
+                "createdAt": "2/23/2023, 13:59"
+            }
+        ]
+    },
+    {
+        "id" : 2,
+        "name": "VinFast VF7",
+        "rate": "4.5",
+        "price": "800.000.000 VNĐ",
+        "image" : "VF7-1",
+        "colors": [
+            {
+                "color": "black",
+                "image": "VF7-1"
+            }
+        ],
+        "detailImages": ["VF7-1", "VF7-2", "VF7-3", "VF7-4", "VF7-5", "VF7-6", "VF7-7", "VF7-8", "VF7-9"],
+        "description": "VF7 có ngoại thất đẹp, thanh thoát nhờ sự kết hợp giữa kiểu dáng SUV và couple. Thiết kế ấn tượng này được chắp bút bởi Studio thiết kế Pininfarina (Italia) - cha đẻ của những mẫu ngoại thất xe đẳng cấp.",
+        "numOfReviews": "0",
+        "reviews": [
+            {
+                "id": "641955b98f82b3b61fd770e1",
+                "user":
+                {
+                    "id": "hoangnamtien",
+                    "name": "Hoàng Nam Tiến",
+                    "avatarURL": "https://media.vneconomy.vn/w800/images/upload/2021/04/20/imgl0049-16075896088981339590624-crop-1607589637212622054276.jpg",
+                    "phoneNumber": "0979797979",
+                    "language": "Vietnamese",
+                    "darkMode": "Yes"
+                },
+                "rate" : "5",
+                "content": "Mấy chị em mà đi VF8 thì tuyệt ah",
+                "numOfReactions": "34",
+                "createdAt": "4/23/2023, 13:59"
+            },
+            {
+                "id": "641955b98f82b3b61fd770e2",
+                "user":
+                {
+                    "id": "shouzichew",
+                    "name": "Shou Zi Chew",
+                    "avatarURL": "https://www.repstatic.it/content/contenthub/img/2023/03/23/162950195-dd0f308d-9aba-45ac-a16d-519824d6aca1.jpg",
+                    "phoneNumber": "0123456789",
+                    "language": "Vietnamese",
+                    "darkMode": "Yes"
+                },
+                "rate" : "4",
+                "content": "Trải nghiệm rất tuyệt",
+                "numOfReactions": "26",
+                "createdAt": "4/20/2023, 13:59"
+            },
+            {
+                "id": "641955b98f82b3b61fd770e3",
+                "user":
+                {
+                    "id": "phungtuanduc",
+                    "name": "Phùng Tuấn Đức",
+                    "avatarURL": "https://static.doanhnhan.vn/images/upload/thanhtrung/09142020/1_iqjg.jpg",
+                    "phoneNumber": "0123456789",
+                    "language": "Vietnamese",
+                    "darkMode": "Yes"
+                },
+                "rate" : "3",
+                "content": "Mẫu mã xe đa dạng, đẹp mắt",
+                "numOfReactions": "3",
+                "createdAt": "4/2/2023, 13:59"
+            },
+            {
+                "id": "641955b98f82b3b61fd770e4",
+                "user":
+                {
+                    "id": "elonmusk",
+                    "name": "Elon Musk",
+                    "avatarURL": "https://cdn.vox-cdn.com/thumbor/WYZNb2sx7XuDb9ALk49LQtjF_IQ=/0x0:4000x2781/1400x1400/filters:focal(2000x1391:2001x1392)/cdn.vox-cdn.com/uploads/chorus_asset/file/22520460/1229901686.jpg",
+                    "phoneNumber": "0123456789",
+                    "language": "Vietnamese",
+                    "darkMode": "Yes"
+                },
+                "rate" : "2",
+                "content": "Rất sang",
+                "numOfReactions": "19",
+                "createdAt": "2/23/2023, 13:59"
+            }
+        ]
+    },
+    {
+        "id" : 3,
+        "name": "VinFast VF8",
+        "rate": "5",
+        "price": "1.129.000.000 VNĐ",
+        "image" : "VF8-white",
+        "colors": [
+            {
+                "color": "white",
+                "image": "VF8-white"
+            },
+            {
+                "color": "black",
+                "image": "VF8-black"
+            },
+            {
+                "color": "grey",
+                "image": "VF8-grey"
+            },
+            {
+                "color": "red",
+                "image": "VF8-red"
+            },
+            {
+                "color": "blue",
+                "image": "VF8-blue"
+            },
+            {
+                "color": "orange",
+                "image": "VF8-orange"
+            },
+            {
+                "color": "silver",
+                "image": "VF8-silver"
+            }
+        ],
+        "detailImages": ["VF8-red", "VF8-black", "VF8-orange", "VF8-silver", "VF8-white", "VF8-grey", "VF8-blue"],
+        "description": "VF8 có ngoại thất đẹp, thanh thoát nhờ sự kết hợp giữa kiểu dáng SUV và couple. Thiết kế ấn tượng này được chắp bút bởi Studio thiết kế Pininfarina (Italia) - cha đẻ của những mẫu ngoại thất xe đẳng cấp.",
+        "numOfReviews": "86",
+        "reviews": [
+            {
+                "id": "641955b98f82b3b61fd770e1",
+                "user":
+                {
+                    "id": "hoangnamtien",
+                    "name": "Hoàng Nam Tiến",
+                    "avatarURL": "https://media.vneconomy.vn/w800/images/upload/2021/04/20/imgl0049-16075896088981339590624-crop-1607589637212622054276.jpg",
+                    "phoneNumber": "0979797979",
+                    "language": "Vietnamese",
+                    "darkMode": "Yes"
+                },
+                "rate" : "5",
+                "content": "Mấy chị em mà đi VF8 thì tuyệt ah",
+                "numOfReactions": "34",
+                "createdAt": "4/23/2023, 13:59"
+            },
+            {
+                "id": "641955b98f82b3b61fd770e2",
+                "user":
+                {
+                    "id": "",
+                    "name": "",
+                    "avatarURL": "",
+                    "phoneNumber": "0123456789",
+                    "language": "Vietnamese",
+                    "darkMode": "Yes"
+                },
+                "rate" : "5",
+                "content": "Trải nghiệm rất tuyệt",
+                "numOfReactions": "26",
+                "createdAt": "4/20/2023, 13:59"
+            },
+            {
+                "id": "641955b98f82b3b61fd770e3",
+                "user":
+                {
+                    "id": "",
+                    "name": "",
+                    "avatarURL": "",
+                    "phoneNumber": "0123456789",
+                    "language": "Vietnamese",
+                    "darkMode": "Yes"
+                },
+                "rate" : "5",
+                "content": "Mẫu mã xe đa dạng, đẹp mắt",
+                "numOfReactions": "3",
+                "createdAt": "4/2/2023, 13:59"
+            },
+            {
+                "id": "641955b98f82b3b61fd770e4",
+                "user":
+                {
+                    "id": "",
+                    "name": "",
+                    "avatarURL": "",
+                    "phoneNumber": "0123456789",
+                    "language": "Vietnamese",
+                    "darkMode": "Yes"
+                },
+                "rate" : "5",
+                "content": "Rất sang",
+                "numOfReactions": "19",
+                "createdAt": "2/23/2023, 13:59"
+            }
+        ]
+    },
+    {
+        "id" : 4,
+        "name": "VinFast VF9",
+        "rate": "5",
+        "price": "1.491.000.000 VNĐ",
+        "image" : "VF9-white",
+        "colors": [
+            {
+                "color": "white",
+                "image": "VF9-white"
+            },
+            {
+                "color": "black",
+                "image": "VF9-black"
+            },
+            {
+                "color": "grey",
+                "image": "VF9-grey"
+            },
+            {
+                "color": "red",
+                "image": "VF9-red"
+            },
+            {
+                "color": "blue",
+                "image": "VF9-blue"
+            },
+            {
+                "color": "orange",
+                "image": "VF9-orange"
+            },
+            {
+                "color": "silver",
+                "image": "VF9-silver"
+            },
+            {
+                "color": "green",
+                "image": "VF9-green"
+            }
+        ],
+        "detailImages": ["VF9-red", "VF9-black", "VF9-orange", "VF9-silver", "VF9-white", "VF9-grey", "VF9-blue", "VF9-green"],
+        "description": "VF9 có ngoại thất đẹp, thanh thoát nhờ sự kết hợp giữa kiểu dáng SUV và couple. Thiết kế ấn tượng này được chắp bút bởi Studio thiết kế Pininfarina (Italia) - cha đẻ của những mẫu ngoại thất xe đẳng cấp.",
+        "numOfReviews": "86",
+        "reviews": [
+            {
+                "id": "641955b98f82b3b61fd770e1",
+                "user":
+                {
+                    "id": "hoangnamtien",
+                    "name": "Hoàng Nam Tiến",
+                    "avatarURL": "https://media.vneconomy.vn/w800/images/upload/2021/04/20/imgl0049-16075896088981339590624-crop-1607589637212622054276.jpg",
+                    "phoneNumber": "0979797979",
+                    "language": "Vietnamese",
+                    "darkMode": "Yes"
+                },
+                "rate" : "5",
+                "content": "Mấy chị em mà đi VF8 thì tuyệt ah",
+                "numOfReactions": "34",
+                "createdAt": "4/23/2023, 13:59"
+            },
+            {
+                "id": "641955b98f82b3b61fd770e2",
+                "user":
+                {
+                    "id": "shouzichew",
+                    "name": "Shou Zi Chew",
+                    "avatarURL": "https://www.repstatic.it/content/contenthub/img/2023/03/23/162950195-dd0f308d-9aba-45ac-a16d-519824d6aca1.jpg",
+                    "phoneNumber": "0123456789",
+                    "language": "Vietnamese",
+                    "darkMode": "Yes"
+                },
+                "rate" : "4",
+                "content": "Trải nghiệm rất tuyệt",
+                "numOfReactions": "26",
+                "createdAt": "4/20/2023, 13:59"
+            },
+            {
+                "id": "641955b98f82b3b61fd770e3",
+                "user":
+                {
+                    "id": "phungtuanduc",
+                    "name": "Phùng Tuấn Đức",
+                    "avatarURL": "https://static.doanhnhan.vn/images/upload/thanhtrung/09142020/1_iqjg.jpg",
+                    "phoneNumber": "0123456789",
+                    "language": "Vietnamese",
+                    "darkMode": "Yes"
+                },
+                "rate" : "3",
+                "content": "Mẫu mã xe đa dạng, đẹp mắt",
+                "numOfReactions": "3",
+                "createdAt": "4/2/2023, 13:59"
+            },
+            {
+                "id": "641955b98f82b3b61fd770e4",
+                "user":
+                {
+                    "id": "elonmusk",
+                    "name": "Elon Musk",
+                    "avatarURL": "https://cdn.vox-cdn.com/thumbor/WYZNb2sx7XuDb9ALk49LQtjF_IQ=/0x0:4000x2781/1400x1400/filters:focal(2000x1391:2001x1392)/cdn.vox-cdn.com/uploads/chorus_asset/file/22520460/1229901686.jpg",
+                    "phoneNumber": "0123456789",
+                    "language": "Vietnamese",
+                    "darkMode": "Yes"
+                },
+                "rate" : "2",
+                "content": "Rất sang",
+                "numOfReactions": "19",
+                "createdAt": "2/23/2023, 13:59"
+            }
+        ]
+    },
+    {
+        "id" : 5,
+        "name": "VinFast Vento S",
+        "rate": "4.5",
+        "price": "56.000.000 VNĐ",
+        "image" : "VENTO-S-white",
+        "colors": [
+            {
+                "color": "white",
+                "image": "VENTO-S-white"
+            },
+            {
+                "color": "black",
+                "image": "VENTO-S-black"
+            },
+            {
+                "color": "red",
+                "image": "VENTO-S-red"
+            },
+            {
+                "color": "orange",
+                "image": "VENTO-S-orange"
+            },
+            {
+                "color": "turquoise",
+                "image": "VENTO-S-turquoise"
+            }
+        ],
+        "detailImages": ["VENTO-S-red", "VENTO-S-black", "VENTO-S-orange", "VENTO-S-turquoise", "VENTO-S-white"],
+        "description": "KLARA S có ngoại thất đẹp, thanh thoát nhờ sự kết hợp giữa kiểu dáng SUV và couple. Thiết kế ấn tượng này được chắp bút bởi Studio thiết kế Pininfarina (Italia) - cha đẻ của những mẫu ngoại thất xe đẳng cấp.",
+        "numOfReviews": "0",
+        "reviews": [
+            {
+                "id": "641955b98f82b3b61fd770e1",
+                "user":
+                {
+                    "id": "hoangnamtien",
+                    "name": "Hoàng Nam Tiến",
+                    "avatarURL": "https://media.vneconomy.vn/w800/images/upload/2021/04/20/imgl0049-16075896088981339590624-crop-1607589637212622054276.jpg",
+                    "phoneNumber": "0979797979",
+                    "language": "Vietnamese",
+                    "darkMode": "Yes"
+                },
+                "rate" : "5",
+                "content": "Mấy chị em mà đi VF8 thì tuyệt ah",
+                "numOfReactions": "34",
+                "createdAt": "4/23/2023, 13:59"
+            },
+            {
+                "id": "641955b98f82b3b61fd770e2",
+                "user":
+                {
+                    "id": "shouzichew",
+                    "name": "Shou Zi Chew",
+                    "avatarURL": "https://www.repstatic.it/content/contenthub/img/2023/03/23/162950195-dd0f308d-9aba-45ac-a16d-519824d6aca1.jpg",
+                    "phoneNumber": "0123456789",
+                    "language": "Vietnamese",
+                    "darkMode": "Yes"
+                },
+                "rate" : "4",
+                "content": "Trải nghiệm rất tuyệt",
+                "numOfReactions": "26",
+                "createdAt": "4/20/2023, 13:59"
+            },
+            {
+                "id": "641955b98f82b3b61fd770e3",
+                "user":
+                {
+                    "id": "phungtuanduc",
+                    "name": "Phùng Tuấn Đức",
+                    "avatarURL": "https://static.doanhnhan.vn/images/upload/thanhtrung/09142020/1_iqjg.jpg",
+                    "phoneNumber": "0123456789",
+                    "language": "Vietnamese",
+                    "darkMode": "Yes"
+                },
+                "rate" : "3",
+                "content": "Mẫu mã xe đa dạng, đẹp mắt",
+                "numOfReactions": "3",
+                "createdAt": "4/2/2023, 13:59"
+            },
+            {
+                "id": "641955b98f82b3b61fd770e4",
+                "user":
+                {
+                    "id": "elonmusk",
+                    "name": "Elon Musk",
+                    "avatarURL": "https://cdn.vox-cdn.com/thumbor/WYZNb2sx7XuDb9ALk49LQtjF_IQ=/0x0:4000x2781/1400x1400/filters:focal(2000x1391:2001x1392)/cdn.vox-cdn.com/uploads/chorus_asset/file/22520460/1229901686.jpg",
+                    "phoneNumber": "0123456789",
+                    "language": "Vietnamese",
+                    "darkMode": "Yes"
+                },
+                "rate" : "2",
+                "content": "Rất sang",
+                "numOfReactions": "19",
+                "createdAt": "2/23/2023, 13:59"
+            }
+        ]
+    },
+    {
+        "id" : 6,
+        "name": "VinFast Theon S",
+        "rate": "4.5",
+        "price": "69.900.000 VNĐ",
+        "image" : "THEON-S-white",
+        "colors": [
+            {
+                "color": "white",
+                "image": "THEON-S-white"
+            },
+            {
+                "color": "black",
+                "image": "THEON-S-black"
+            },
+            {
+                "color": "brown",
+                "image": "THEON-S-brown"
+            }
+        ],
+        "detailImages": ["THEON-S-brown", "THEON-S-black", "THEON-S-white"],
+        "description": "Theon S có ngoại thất đẹp, thanh thoát nhờ sự kết hợp giữa kiểu dáng SUV và couple. Thiết kế ấn tượng này được chắp bút bởi Studio thiết kế Pininfarina (Italia) - cha đẻ của những mẫu ngoại thất xe đẳng cấp.",
+        "numOfReviews": "0",
+        "reviews": [
+            {
+                "id": "641955b98f82b3b61fd770e1",
+                "user":
+                {
+                    "id": "hoangnamtien",
+                    "name": "Hoàng Nam Tiến",
+                    "avatarURL": "https://media.vneconomy.vn/w800/images/upload/2021/04/20/imgl0049-16075896088981339590624-crop-1607589637212622054276.jpg",
+                    "phoneNumber": "0979797979",
+                    "language": "Vietnamese",
+                    "darkMode": "Yes"
+                },
+                "rate" : "5",
+                "content": "Mấy chị em mà đi VF8 thì tuyệt ah",
+                "numOfReactions": "34",
+                "createdAt": "4/23/2023, 13:59"
+            },
+            {
+                "id": "641955b98f82b3b61fd770e2",
+                "user":
+                {
+                    "id": "shouzichew",
+                    "name": "Shou Zi Chew",
+                    "avatarURL": "https://www.repstatic.it/content/contenthub/img/2023/03/23/162950195-dd0f308d-9aba-45ac-a16d-519824d6aca1.jpg",
+                    "phoneNumber": "0123456789",
+                    "language": "Vietnamese",
+                    "darkMode": "Yes"
+                },
+                "rate" : "4",
+                "content": "Trải nghiệm rất tuyệt",
+                "numOfReactions": "26",
+                "createdAt": "4/20/2023, 13:59"
+            },
+            {
+                "id": "641955b98f82b3b61fd770e3",
+                "user":
+                {
+                    "id": "phungtuanduc",
+                    "name": "Phùng Tuấn Đức",
+                    "avatarURL": "https://static.doanhnhan.vn/images/upload/thanhtrung/09142020/1_iqjg.jpg",
+                    "phoneNumber": "0123456789",
+                    "language": "Vietnamese",
+                    "darkMode": "Yes"
+                },
+                "rate" : "3",
+                "content": "Mẫu mã xe đa dạng, đẹp mắt",
+                "numOfReactions": "3",
+                "createdAt": "4/2/2023, 13:59"
+            },
+            {
+                "id": "641955b98f82b3b61fd770e4",
+                "user":
+                {
+                    "id": "elonmusk",
+                    "name": "Elon Musk",
+                    "avatarURL": "https://cdn.vox-cdn.com/thumbor/WYZNb2sx7XuDb9ALk49LQtjF_IQ=/0x0:4000x2781/1400x1400/filters:focal(2000x1391:2001x1392)/cdn.vox-cdn.com/uploads/chorus_asset/file/22520460/1229901686.jpg",
+                    "phoneNumber": "0123456789",
+                    "language": "Vietnamese",
+                    "darkMode": "Yes"
+                },
+                "rate" : "2",
+                "content": "Rất sang",
+                "numOfReactions": "19",
+                "createdAt": "2/23/2023, 13:59"
+            }
+        ]
+    },
+    {
+        "id" : 7,
+        "name": "VinFast Feliz S",
+        "rate": "4.5",
+        "price": "29.900.000 VNĐ",
+        "image" : "FELIZ-S-white",
+        "colors": [
+            {
+                "color": "white",
+                "image": "FELIZ-S-white"
+            },
+            {
+                "color": "black",
+                "image": "FELIZ-S-black"
+            },
+            {
+                "color": "brown",
+                "image": "FELIZ-S-brown"
+            },
+            {
+                "color": "green",
+                "image": "FELIZ-S-green"
+            }
+        ],
+        "detailImages": ["FELIZ-S-brown", "FELIZ-S-black", "FELIZ-S-white", "FELIZ-S-green"],
+        "description": "Feliz S có ngoại thất đẹp, thanh thoát nhờ sự kết hợp giữa kiểu dáng SUV và couple. Thiết kế ấn tượng này được chắp bút bởi Studio thiết kế Pininfarina (Italia) - cha đẻ của những mẫu ngoại thất xe đẳng cấp.",
+        "numOfReviews": "0",
+        "reviews": [
+            {
+                "id": "641955b98f82b3b61fd770e1",
+                "user":
+                {
+                    "id": "hoangnamtien",
+                    "name": "Hoàng Nam Tiến",
+                    "avatarURL": "https://media.vneconomy.vn/w800/images/upload/2021/04/20/imgl0049-16075896088981339590624-crop-1607589637212622054276.jpg",
+                    "phoneNumber": "0979797979",
+                    "language": "Vietnamese",
+                    "darkMode": "Yes"
+                },
+                "rate" : "5",
+                "content": "Mấy chị em mà đi VF8 thì tuyệt ah",
+                "numOfReactions": "34",
+                "createdAt": "4/23/2023, 13:59"
+            },
+            {
+                "id": "641955b98f82b3b61fd770e2",
+                "user":
+                {
+                    "id": "shouzichew",
+                    "name": "Shou Zi Chew",
+                    "avatarURL": "https://www.repstatic.it/content/contenthub/img/2023/03/23/162950195-dd0f308d-9aba-45ac-a16d-519824d6aca1.jpg",
+                    "phoneNumber": "0123456789",
+                    "language": "Vietnamese",
+                    "darkMode": "Yes"
+                },
+                "rate" : "4",
+                "content": "Trải nghiệm rất tuyệt",
+                "numOfReactions": "26",
+                "createdAt": "4/20/2023, 13:59"
+            },
+            {
+                "id": "641955b98f82b3b61fd770e3",
+                "user":
+                {
+                    "id": "phungtuanduc",
+                    "name": "Phùng Tuấn Đức",
+                    "avatarURL": "https://static.doanhnhan.vn/images/upload/thanhtrung/09142020/1_iqjg.jpg",
+                    "phoneNumber": "0123456789",
+                    "language": "Vietnamese",
+                    "darkMode": "Yes"
+                },
+                "rate" : "3",
+                "content": "Mẫu mã xe đa dạng, đẹp mắt",
+                "numOfReactions": "3",
+                "createdAt": "4/2/2023, 13:59"
+            },
+            {
+                "id": "641955b98f82b3b61fd770e4",
+                "user":
+                {
+                    "id": "elonmusk",
+                    "name": "Elon Musk",
+                    "avatarURL": "https://cdn.vox-cdn.com/thumbor/WYZNb2sx7XuDb9ALk49LQtjF_IQ=/0x0:4000x2781/1400x1400/filters:focal(2000x1391:2001x1392)/cdn.vox-cdn.com/uploads/chorus_asset/file/22520460/1229901686.jpg",
+                    "phoneNumber": "0123456789",
+                    "language": "Vietnamese",
+                    "darkMode": "Yes"
+                },
+                "rate" : "2",
+                "content": "Rất sang",
+                "numOfReactions": "19",
+                "createdAt": "2/23/2023, 13:59"
+            }
+        ]
+    },
+    {
+        "id" : 8,
+        "name": "VinFast Klara S",
+        "rate": "4.5",
+        "price": "36.900.000 VNĐ",
+        "image" : "KLARA-S-white",
+        "colors": [
+            {
+                "color": "white",
+                "image": "KLARA-S-white"
+            },
+            {
+                "color": "blue",
+                "image": "KLARA-S-blue"
+            },
+            {
+                "color": "brown",
+                "image": "KLARA-S-brown"
+            },
+            {
+                "color": "green",
+                "image": "KLARA-S-green"
+            },
+            {
+                "color": "red",
+                "image": "KLARA-S-red"
+            }
+        ],
+        "detailImages": ["KLARA-S-blue", "KLARA-S-black", "KLARA-S-white", "KLARA-S-green", "KLARA-S-red"],
+        "description": "KLARA S có ngoại thất đẹp, thanh thoát nhờ sự kết hợp giữa kiểu dáng SUV và couple. Thiết kế ấn tượng này được chắp bút bởi Studio thiết kế Pininfarina (Italia) - cha đẻ của những mẫu ngoại thất xe đẳng cấp.",
+        "numOfReviews": "0",
+        "reviews": [
+            {
+                "id": "641955b98f82b3b61fd770e1",
+                "user":
+                {
+                    "id": "hoangnamtien",
+                    "name": "Hoàng Nam Tiến",
+                    "avatarURL": "https://media.vneconomy.vn/w800/images/upload/2021/04/20/imgl0049-16075896088981339590624-crop-1607589637212622054276.jpg",
+                    "phoneNumber": "0979797979",
+                    "language": "Vietnamese",
+                    "darkMode": "Yes"
+                },
+                "rate" : "5",
+                "content": "Mấy chị em mà đi VF8 thì tuyệt ah",
+                "numOfReactions": "34",
+                "createdAt": "4/23/2023, 13:59"
+            },
+            {
+                "id": "641955b98f82b3b61fd770e2",
+                "user":
+                {
+                    "id": "shouzichew",
+                    "name": "Shou Zi Chew",
+                    "avatarURL": "https://www.repstatic.it/content/contenthub/img/2023/03/23/162950195-dd0f308d-9aba-45ac-a16d-519824d6aca1.jpg",
+                    "phoneNumber": "0123456789",
+                    "language": "Vietnamese",
+                    "darkMode": "Yes"
+                },
+                "rate" : "4",
+                "content": "Trải nghiệm rất tuyệt",
+                "numOfReactions": "26",
+                "createdAt": "4/20/2023, 13:59"
+            },
+            {
+                "id": "641955b98f82b3b61fd770e3",
+                "user":
+                {
+                    "id": "phungtuanduc",
+                    "name": "Phùng Tuấn Đức",
+                    "avatarURL": "https://static.doanhnhan.vn/images/upload/thanhtrung/09142020/1_iqjg.jpg",
+                    "phoneNumber": "0123456789",
+                    "language": "Vietnamese",
+                    "darkMode": "Yes"
+                },
+                "rate" : "3",
+                "content": "Mẫu mã xe đa dạng, đẹp mắt",
+                "numOfReactions": "3",
+                "createdAt": "4/2/2023, 13:59"
+            },
+            {
+                "id": "641955b98f82b3b61fd770e4",
+                "user":
+                {
+                    "id": "elonmusk",
+                    "name": "Elon Musk",
+                    "avatarURL": "https://cdn.vox-cdn.com/thumbor/WYZNb2sx7XuDb9ALk49LQtjF_IQ=/0x0:4000x2781/1400x1400/filters:focal(2000x1391:2001x1392)/cdn.vox-cdn.com/uploads/chorus_asset/file/22520460/1229901686.jpg",
+                    "phoneNumber": "0123456789",
+                    "language": "Vietnamese",
+                    "darkMode": "Yes"
+                },
+                "rate" : "2",
+                "content": "Rất sang",
+                "numOfReactions": "19",
+                "createdAt": "2/23/2023, 13:59"
+            }
+        ]
+    }
 ]
+  

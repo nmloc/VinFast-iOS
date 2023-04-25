@@ -10,28 +10,21 @@ import UIKit
 
 class CommunityViewController: UIViewController {
     // MARK: Properties
-    private let circleAvatar = CircleAvatar(imageUrl: user.avatarURL)
     private let pageViewController = UIPageViewController(transitionStyle: .scroll, navigationOrientation: .horizontal, options: nil)
     private let mySegmentedControl = UISegmentedControl(items: ["Global Feed", "My Feed", "Explore"])
     private var pages: [UIViewController] = []
     private let underlineView = UIView()
     
-    // MARK: IB Outlets
+    // MARK: IBOutlets
     @IBOutlet weak var segmentedControl: UISegmentedControl!
+    @IBOutlet weak var chatBarButtonItem: UIBarButtonItem!
+    @IBOutlet weak var notificationBarButtonItem: UIBarButtonItem!
     
     // MARK: Life Cycle
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-        if circleAvatar.frame.height > circleAvatar.frame.width {
-            circleAvatar.layer.cornerRadius = circleAvatar.frame.width / 2.0
-        } else {
-            circleAvatar.layer.cornerRadius = circleAvatar.frame.height / 2.0
-        }
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         setupNavigationBar()
+        
         setupSegmentedControl()
         view.addSubview(pageViewController.view)
         addChild(pageViewController)
@@ -49,20 +42,19 @@ class CommunityViewController: UIViewController {
     }
     // MARK: setup Navigation Bar
     private func setupNavigationBar() {
-        navigationController?.navigationBar.barTintColor = .systemBackground
-        navigationController?.navigationBar.isTranslucent = false
-        navigationController?.navigationBar.translatesAutoresizingMaskIntoConstraints = false
+//        navigationController?.navigationBar.barTintColor = .systemBackground
+//        navigationController?.navigationBar.isTranslucent = false
+//        navigationController?.navigationBar.translatesAutoresizingMaskIntoConstraints = false
         
-        // LEFT part
         let fullNameLabel = UILabel()
         fullNameLabel.font = UIFont.systemFont(ofSize: 14, weight: .semibold)
-        fullNameLabel.textColor = .label
+        fullNameLabel.textColor = .white
         fullNameLabel.text = user.name
         fullNameLabel.numberOfLines = 1
 
         let idLabel = UILabel()
         idLabel.font = UIFont.systemFont(ofSize: 12, weight: .regular)
-        idLabel.textColor = .label
+        idLabel.textColor = .white
         idLabel.text = "@" + user.id
         idLabel.numberOfLines = 1
 
@@ -71,10 +63,12 @@ class CommunityViewController: UIViewController {
         stackView.alignment = .leading
         stackView.spacing = 5
 
-        navigationItem.leftBarButtonItems = [
-            UIBarButtonItem(customView: circleAvatar), UIBarButtonItem(customView: stackView)]
+        navigationItem.leftBarButtonItems = [UIBarButtonItem(customView: UIImageView().circular(imageURL: user.avatarURL!, size: 40.0)), UIBarButtonItem(customView: stackView)]
         
         navigationController?.navigationBar.setItems([navigationItem], animated: true)
+        
+        chatBarButtonItem.image = UIImage(systemName: "bubble.left.and.bubble.right", withConfiguration: UIImage.SymbolConfiguration(weight: .bold))
+        notificationBarButtonItem.image = UIImage(systemName: "bell", withConfiguration: UIImage.SymbolConfiguration(weight: .bold))
     }
     // MARK: setup Segmented Control
     private func setupSegmentedControl() {

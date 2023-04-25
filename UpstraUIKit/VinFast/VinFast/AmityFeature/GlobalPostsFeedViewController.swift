@@ -10,7 +10,6 @@ import AmityUIKit
 class GlobalPostsFeedViewController: UIViewController {
     // MARK: - Properties
     private var dataSource: GlobalPostsDataSource!
-    private let circleAvatar = CircleAvatar(imageUrl: user.avatarURL)
     
     // MARK: - IBOulet components
     @IBOutlet private weak var tableView: UITableView!
@@ -19,8 +18,6 @@ class GlobalPostsFeedViewController: UIViewController {
     // MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        setupNavigationBar()
-        
         dataSource = GlobalPostsDataSource(client: AmityUIKitManager.client)
         
         activityIndicator.startAnimating()
@@ -36,53 +33,7 @@ class GlobalPostsFeedViewController: UIViewController {
         }
     }
     
-    override func viewDidAppear(_ animated: Bool) { // Override this func to resize Avatar radius based on any device layout
-        super.viewDidAppear(animated)
-        if circleAvatar.frame.height > circleAvatar.frame.width {
-            circleAvatar.layer.cornerRadius = circleAvatar.frame.width / 2.0
-        } else {
-            circleAvatar.layer.cornerRadius = circleAvatar.frame.height / 2.0
-        }
-    }
-    
     // MARK: - Private Methods
-    func setupNavigationBar() {
-        navigationController?.navigationBar.barTintColor = .systemBackground
-        navigationController?.navigationBar.isTranslucent = false
-        navigationController?.navigationBar.translatesAutoresizingMaskIntoConstraints = false
-        
-        // LEFT part
-        let fullNameLabel = UILabel()
-        fullNameLabel.font = UIFont.systemFont(ofSize: 14, weight: .semibold)
-        fullNameLabel.textColor = .label
-        fullNameLabel.text = user.name
-        fullNameLabel.numberOfLines = 1
-
-        let idLabel = UILabel()
-        idLabel.font = UIFont.systemFont(ofSize: 12, weight: .regular)
-        idLabel.textColor = .label
-        idLabel.text = "@" + user.id
-        idLabel.numberOfLines = 1
-
-        let stackView = UIStackView(arrangedSubviews: [fullNameLabel, idLabel])
-        stackView.axis = .vertical
-        stackView.alignment = .leading
-        stackView.spacing = 5
-
-        // RIGHT part
-        let heartImage = UIImage(systemName: "bubble.left.and.bubble.right", withConfiguration: UIImage.SymbolConfiguration(weight: .bold))?.withTintColor(.label, renderingMode: .alwaysOriginal)
-
-        let heartButton = UIBarButtonItem(image: heartImage, style: .plain, target: self, action: #selector(chatButtonTapped))
-
-        let bellIcon = UIImage(systemName: "bell", withConfiguration: UIImage.SymbolConfiguration(weight: .bold))?.withTintColor(.label, renderingMode: .alwaysOriginal)
-        let bellButton = UIBarButtonItem(image: bellIcon, style: .plain, target: self, action: #selector(notificationButtonTapped))
-
-        navigationItem.leftBarButtonItems = [
-            UIBarButtonItem(customView: circleAvatar), UIBarButtonItem(customView: stackView)]
-        navigationItem.rightBarButtonItems = [bellButton, heartButton]
-        
-        navigationController?.navigationBar.setItems([navigationItem], animated: true)
-    }
 
     // Support Pagination
     func scrollViewWillEndDragging(_ scrollView: UIScrollView, withVelocity velocity: CGPoint, targetContentOffset: UnsafeMutablePointer<CGPoint>) {

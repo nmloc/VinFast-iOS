@@ -14,5 +14,10 @@ struct ProductModel: Identifiable, Codable, Equatable{
     let rate: String
     let price: String
     let image: String
+    let colors: [ProductColorModel]
+    let detailImages: [String]
+    let description: String
+    let numOfReviews: String
+    let reviews: [ReviewModel]
     
 }

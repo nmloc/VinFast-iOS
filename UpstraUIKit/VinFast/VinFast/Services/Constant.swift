@@ -15,9 +15,8 @@ let categories: [CategoryModel] = Bundle.main.decode("category")
 let products: [ProductModel] = Bundle.main.decode("product")
 let sampleProduct: ProductModel = products[0]
 
-
 //color
-
+let background = UIColor(hex: "181A20", alpha: 1.0)
 
 
 //layout

@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "VF9-green.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
