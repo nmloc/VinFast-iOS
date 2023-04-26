@@ -18,6 +18,7 @@ class ReviewsViewController: UIViewController {
     // MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = background
         
         setupSegmentedControl()
         
@@ -28,24 +29,28 @@ class ReviewsViewController: UIViewController {
     
     // MARK: - Private Methods
     private func setupSegmentedControl() {
-        
+        segmentedControl.backgroundColor = background
+        segmentedControl.tintColor = .white
+        // Remove the vertical divider line between segments
+        segmentedControl.setDividerImage(UIImage(), forLeftSegmentState: .normal, rightSegmentState: .normal, barMetrics: .default)
     }
 }
 
-extension ReviewsViewController: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
-    // MARK: - UICollectionViewDataSource
+extension ReviewsViewController: UICollectionViewDelegateFlowLayout{
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
-        return 20 //vertical spacing
+        return 40 //vertical spacing
     }
-    
+}
+
+extension ReviewsViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return (product?.reviews.count)!
+        return product!.reviews.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: ReviewCollectionViewCell.identifier, for: indexPath) as? ReviewCollectionViewCell
         cell!.setup(item: product!.reviews[indexPath.row])
-        cell!.tag = indexPath.row
+        cell!.tag = indexPath.item
         return cell!
     }
 }

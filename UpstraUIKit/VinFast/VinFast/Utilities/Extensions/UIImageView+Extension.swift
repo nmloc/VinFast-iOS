@@ -16,7 +16,7 @@ extension UIImageView {
         self.layer.cornerRadius = size / 2
         self.layer.borderWidth = 1
         self.layer.masksToBounds = true
-        self.layer.borderColor = UIColor.systemBackground.cgColor
+        self.layer.borderColor = background.cgColor
         self.clipsToBounds = true
         
         // Load image from URL asynchronously

@@ -13,6 +13,14 @@ class ReviewCollectionViewCell: UICollectionViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        let screenWidth = UIScreen.main.bounds.width
+        let inset: CGFloat = 16.0
+        let cellWidth = screenWidth - inset * 2.0
+        self.heightAnchor.constraint(equalToConstant: 135).isActive = true
+        self.widthAnchor.constraint(equalToConstant: cellWidth).isActive = true
+        rateButton.setTitle("", for: .normal)
+        optionButton.setTitle("", for: .normal)
+        reactButton.setTitle("", for: .normal)
     }
     
     @IBOutlet weak var avatarImageView: UIImageView!
@@ -21,7 +29,6 @@ class ReviewCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var optionButton: UIButton!
     @IBOutlet weak var contentLabel: UILabel!
     @IBOutlet weak var reactButton: UIButton!
-    @IBOutlet weak var numOfReactionLabel: UILabel!
     @IBOutlet weak var timeLabel: UILabel!
     
     func setup(item: ReviewModel) {
@@ -31,15 +38,10 @@ class ReviewCollectionViewCell: UICollectionViewCell {
 //        optionButton
         contentLabel.text = item.content
         reactButton.setTitle(item.numOfReactions, for: .normal)
-        numOfReactionLabel.text = item.numOfReactions
+        reactButton.titleLabel?.numberOfLines = 1
         
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "M/d/yyyy, HH:mm"
         timeLabel.text = dateFormatter.date(from: item.createdAt)!.relativeTime
-        
-        
-        rateButton.setTitle("", for: .normal)
-        optionButton.setTitle("", for: .normal)
-        reactButton.setTitle("", for: .normal)
     }
 }
